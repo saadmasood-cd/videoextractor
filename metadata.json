@@ -1,0 +1,6 @@
+{
+  "name": "Video Transcriber AI",
+  "description": "Upload a video and transcribe its audio using Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
