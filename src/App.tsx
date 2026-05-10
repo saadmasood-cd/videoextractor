@@ -66,7 +66,7 @@ export default function App() {
     setProgress('Preparing video data...');
 
     try {
-      const const apiKey = import.meta.env.VITE_GEMINI_API_KEY || process.env.GEMINI_API_KEY;;
+      const apiKey =  "AQ.Ab8RN6ILIhgSn_LCDV3cRocDLRAT4-WFGZpNpkOtjGAWvY6t3A";
       if (!apiKey || apiKey === "AQ.Ab8RN6ILIhgSn_LCDV3cRocDLRAT4-WFGZpNpkOtjGAWvY6t3A") {
         throw new Error("Gemini API key is not configured. Please ensure you have set the GEMINI_API_KEY in the Secrets panel of AI Studio.");
       }
