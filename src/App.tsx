@@ -65,8 +65,8 @@ export default function App() {
     setError(null);
     setProgress('Preparing video data...');
 
-    try {
-      const apiKey =  "AQ.Ab8RN6ILIhgSn_LCDV3cRocDLRAT4-WFGZpNpkOtjGAWvY6t3A";
+   try {
+      const apiKey = process.env.GEMINI_API_KEY;
       if (!apiKey || apiKey === "AQ.Ab8RN6ILIhgSn_LCDV3cRocDLRAT4-WFGZpNpkOtjGAWvY6t3A") {
         throw new Error("Gemini API key is not configured. Please ensure you have set the GEMINI_API_KEY in the Secrets panel of AI Studio.");
       }
